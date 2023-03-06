@@ -1,0 +1,560 @@
+  @font-face {
+      font-family: Space Mono;
+      src: url(../../fonts/SpaceMono-Regular.ttf)
+  }
+
+  @font-face {
+      font-family: Work Sans;
+      src: url(../../fonts/WorkSans-Regular.ttf)
+  }
+
+  .main1 {
+      background-color: #2b2b2b;
+  }
+
+  .main1-h {
+      background-color: #2b2b2b;
+  }
+
+  /*--------------------------------header--------------------*/
+  .navbar-toggler {
+      width: 50px;
+      height: 40px;
+  }
+
+  .nav {
+      margin-left: auto;
+  }
+
+  nav a {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+      text-decoration: none;
+  }
+
+  nav button {
+
+      flex-direction: row;
+      align-items: center;
+      width: 152px;
+      height: 60px;
+
+      background: #A259FF;
+      border-radius: 20px;
+      border: none;
+      outline: none;
+
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+  }
+
+
+  .texts1-div {
+      padding-top: 100px;
+      padding-left: 60px;
+  }
+
+  @media screen and (max-width:768px) {
+      .texts1-div {
+          padding-top: 40px;
+          height: auto;
+          padding-left: 8px;
+          justify-content: center;
+      }
+  }
+
+  li {
+      padding-right: 30px;
+  }
+
+  ul>li:first-child {
+      padding-right: 50px;
+  }
+
+  ul>li:nth-child(2) {
+      padding-right: 50px;
+  }
+
+  @media screen and (max-width:768px) {
+      .ntf {
+          font-size: 16px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      li {
+          padding-bottom: 20px;
+          padding-left: 10px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .menu-1 {
+          margin-left: 10px;
+          margin-bottom: 10px;
+      }
+  }
+
+  /*------------------------ end header ----------------------------------*/
+  /*------------------------ first bunner --------------------*/
+
+  .background-img-div {
+      background-image: url(../../images/background-img.png);
+      background-size: cover;
+      position: relative;
+      height: 320px;
+
+
+  }
+
+  .image1-div {
+      height: 50px;
+      padding-top: 250px;
+  }
+
+  /*  ---------------------    second  banner         -----------------------------------------*/
+  .animakid-div {
+      padding-top: 40px;
+  }
+
+  .animakid {
+
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 51px;
+      line-height: 110%;
+
+      color: #FFFFFF;
+  }
+
+  .three-two-div {
+      display: flex;
+      flex-direction: row;
+      gap: 86px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
+  .p250k {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 140%;
+      color: #FFFFFF;
+  }
+
+  .volume {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 160%;
+      color: #FFFFFF;
+  }
+
+  .bio {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 160%;
+      color: #858584;
+  }
+
+  .text-internet-div {
+      padding-top: 10px;
+      padding-bottom: 30px;
+  }
+
+  .text-internet {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 160%;
+      color: #FFFFFF;
+  }
+
+  .links {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 160%;
+      color: #858584;
+  }
+
+  .fifth-icons-div {
+      padding-top: 13px;
+      padding-bottom: 43.32px;
+  }
+
+  .button-two-div {
+      padding-top: 90px;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+  }
+
+
+  .btn-oxc {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 0px;
+      gap: 12px;
+      width: 186px;
+      height: 60px;
+      background: #A259FF;
+      border-radius: 20px;
+
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+      border: none;
+  }
+
+  .follow {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 30px;
+      gap: 12px;
+      width: 145px;
+      height: 60px;
+      background: #2B2B2B;
+      border: 2px solid #A259FF;
+      border-radius: 20px;
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+
+      text-align: center;
+      color: #FFFFFF;
+  }
+
+  /*  ---------------------    footer  banner         -----------------------------------------*/
+
+  @media screen and (max-width:768px) {
+      .form {
+          padding-bottom: 40px;
+          padding-left: 0px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .subscribe_forms-div2 {
+          flex-direction: column;
+          gap: 16px;
+          padding-top: 40px;
+          padding-bottom: 40px;
+          display: flex !important;
+      }
+
+      .subscribe_forms-div {
+          display: none !important;
+      }
+  }
+
+  .subscribe_forms-div2 {
+      display: none;
+  }
+
+  @media screen and (max-width:768px) {
+      .email-btn {
+          width: 100%;
+          height: 48px;
+      }
+  }
+
+
+  .frame {
+      height: 430px;
+      background: #3B3B3B;
+      border-radius: 20px;
+      margin-bottom: 80px;
+  }
+
+  @media screen and (max-width:768px) {
+      .frame {
+          background: none;
+          height: auto;
+          margin-bottom: 30px;
+      }
+  }
+
+  .email-btn {
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 16px 10px 16px 30px;
+      gap: 12px;
+      outline: none;
+
+      width: 425px;
+      height: 60px;
+      background: #FFFFFF;
+      border-radius: 20px;
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      border: none;
+      color: #2B2B2B;
+  }
+
+  @media screen and (max-width:768px) {
+      .email-btn {
+          width: 100%;
+          height: 48px;
+          padding: 0px 40px;
+      }
+  }
+
+  .subscribe_forms {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px 50px;
+      gap: 12px;
+      width: 211px;
+      height: 60px;
+      background: #A259FF;
+      border-radius: 20px;
+      border: none;
+      color: #FFFFFF;
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+  }
+
+  @media screen and (max-width:768px) {
+      .subscribe_forms {
+          width: 100%;
+          height: 46px;
+          justify-content: center;
+      }
+  }
+
+
+
+  .subscribe_forms-div {
+      margin-top: 40px;
+      display: flex;
+      width: 425px;
+      position: relative;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+  }
+
+  .create-btn-div {
+      padding-top: 15px;
+  }
+
+  .footer1 {
+      padding-top: 47px;
+  }
+
+  .background-black {
+      display: flex;
+      background-color: #3B3B3B;
+      background-size: cover;
+      width: 100%;
+
+  }
+
+
+  .net-two1 {
+      display: flex;
+      flex-direction: row;
+      height: 32px;
+      align-items: center;
+      gap: 8px;
+
+  }
+
+  .net-two svg {
+      margin-right: 15px;
+      height: 32px;
+  }
+
+  @media screen and (max-width:768px) {
+      .net-two svg {
+          width: 24px;
+          height: 24px;
+      }
+
+  }
+
+  .net-two img {
+      width: 199.56px;
+      height: 19.8px;
+  }
+
+  @media screen and (max-width:768px) {
+      .net-two img {
+          width: 149.56px;
+          height: 14.85px;
+      }
+  }
+
+  .text-NFT_marketplace {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      color: #CCCCCC;
+  }
+
+  .text-div_footer {
+      padding-top: 20px;
+
+  }
+
+  .text_icons-div {
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  .text-Join_community {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      color: #CCCCCC;
+  }
+
+  .icons_group-div {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+  }
+
+  .Explore span {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 160%;
+      text-transform: capitalize;
+      color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+      .Explore {
+          padding-top: 34px;
+      }
+  }
+
+
+  .text-footer_group-div span {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      color: #CCCCCC;
+  }
+
+  .text-footer_group-div {
+      display: flex;
+      flex-direction: column;
+      padding-top: 25px;
+      gap: 20px;
+  }
+
+  .logo-weekly_digest {
+      padding-bottom: 25px;
+
+  }
+
+  .logo-weekly_digest span {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 160%;
+
+      text-transform: capitalize;
+
+      color: #FFFFFF;
+  }
+
+
+  .subscribe_forms-div1 {
+      margin-top: 40px;
+      display: flex;
+      width: 425px;
+      position: relative;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+  }
+
+  @media screen and (max-width:768px) {
+      .subscribe_forms-div1 {
+          display: none !important;
+      }
+
+      .subscribe_forms-div2 {
+          display: flex !important;
+          padding-bottom: 10px;
+      }
+  }
+
+  .text-info-div {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: #CCCCCC;
+  }
+
+  .divider {
+      padding-top: 16px;
+  }
+
+  .last_text-div span {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 110%;
+      color: #CCCCCC;
+  }
+
+  .last_text-div {
+      padding-top: 8px;
+      padding-bottom: 40px;
+  }
