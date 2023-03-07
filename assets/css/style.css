@@ -37,6 +37,12 @@
       text-decoration: none;
   }
 
+  @media screen and (max-width:768px) {
+      .nav a {
+          font-size: 12px;
+      }
+  }
+
   nav button {
 
       flex-direction: row;
@@ -57,6 +63,15 @@
       text-align: center;
       color: #FFFFFF;
   }
+
+  @media screen and (max-width:768px) {
+      .nav button {
+          height: 46px;
+          font-size: 12px;
+      }
+  }
+
+
 
 
   .texts1-div {
@@ -102,10 +117,16 @@
       .menu-1 {
           margin-left: 10px;
           margin-bottom: 10px;
+          height: 46px;
       }
   }
 
   /*------------------------ end header ----------------------------------*/
+
+
+
+
+
   /*------------------------ first bunner --------------------*/
 
   .background-img-div {
@@ -113,8 +134,15 @@
       background-size: cover;
       position: relative;
       height: 320px;
+  }
 
-
+  @media screen and (max-width:768px) {
+      .background-img-div {
+          background-image: url(../../images/background-img-mobile.png);
+          background-size: cover;
+          position: relative;
+          height: 320px;
+      }
   }
 
   .image1-div {
@@ -122,9 +150,28 @@
       padding-top: 250px;
   }
 
+  @media screen and (max-width:768px) {
+      .image1-div {
+          padding-left: 165px;
+      }
+  }
+
+
+
+
+
+
   /*  ---------------------    second  banner         -----------------------------------------*/
+
   .animakid-div {
       padding-top: 40px;
+  }
+
+  @media screen and (max-width:768px) {
+
+      .animakid-div {
+          padding-top: 40px;
+      }
   }
 
   .animakid {
@@ -134,8 +181,66 @@
       font-weight: 600;
       font-size: 51px;
       line-height: 110%;
-
       color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+
+      .animakid {
+          font-size: 28px;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+
+      .btn-oxc {
+          display: none !important;
+      }
+
+      .btn-oxc1 {
+          flex-direction: column;
+          display: flex !important;
+      }
+  }
+
+  .btn-oxc1 {
+      display: none;
+  }
+
+  .mobile-button-two-div {
+
+      display: none !important;
+  }
+
+  .button-two-div {
+      padding-top: 90px;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+  }
+
+  @media screen and (max-width:768px) {
+
+      .mobile-button-two-div {
+          gap: 20px;
+          display: flex;
+          flex-direction: column;
+          display: flex !important;
+      }
+
+      .button-two-div {
+
+          display: none !important;
+      }
+  }
+
+
+  @media screen and (max-width:768px) {
+
+      .btn-oxc {
+          display: none !important;
+      }
+
   }
 
   .three-two-div {
@@ -155,6 +260,13 @@
       color: #FFFFFF;
   }
 
+  @media screen and (max-width:768px) {
+
+      .p250k {
+          font-size: 22px;
+      }
+  }
+
   .volume {
       font-family: Work Sans;
       font-style: normal;
@@ -162,6 +274,13 @@
       font-size: 22px;
       line-height: 160%;
       color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+
+      .volume {
+          font-size: 16px;
+      }
   }
 
   .bio {
@@ -173,8 +292,15 @@
       color: #858584;
   }
 
+  @media screen and (max-width:768px) {
+
+      .bio {
+          font-size: 16px;
+      }
+  }
+
   .text-internet-div {
-      padding-top: 10px;
+
       padding-bottom: 30px;
   }
 
@@ -187,6 +313,13 @@
       color: #FFFFFF;
   }
 
+  @media screen and (max-width:768px) {
+
+      .text-internet {
+          font-size: 16px;
+      }
+  }
+
   .links {
       font-family: Space Mono;
       font-style: normal;
@@ -196,18 +329,31 @@
       color: #858584;
   }
 
+  @media screen and (max-width:768px) {
+
+      .links {
+          font-size: 16px;
+      }
+  }
+
   .fifth-icons-div {
-      padding-top: 13px;
       padding-bottom: 43.32px;
   }
 
-  .button-two-div {
-      padding-top: 90px;
-      display: flex;
-      flex-direction: row;
-      gap: 20px;
+  @media screen and (max-width:768px) {
+
+      .fifth-icons-div {
+          padding-bottom: 32.49px;
+      }
   }
 
+  @media screen and (max-width:768px) {
+
+      .fifth-icons-div img {
+          width: 24px;
+          height: 24px;
+      }
+  }
 
   .btn-oxc {
       display: flex;
@@ -217,6 +363,41 @@
       padding: 0px 0px;
       gap: 12px;
       width: 186px;
+      height: 60px;
+      background: #A259FF;
+      border-radius: 20px;
+
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+      border: none;
+  }
+
+  @media screen and (max-width:768px) {
+
+      .btn-oxc1 {
+          width: 100%;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+
+      .btn-d {
+          display: none !important;
+      }
+  }
+
+  .btn-oxc1 {
+      display: none;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 0px;
+      gap: 12px;
       height: 60px;
       background: #A259FF;
       border-radius: 20px;
@@ -252,6 +433,288 @@
       text-align: center;
       color: #FFFFFF;
   }
+
+
+
+  .follow1 {
+      display: none;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 30px;
+      gap: 12px;
+
+      height: 60px;
+      background: #2B2B2B;
+      border: 2px solid #A259FF;
+      border-radius: 20px;
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+
+      text-align: center;
+      color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+
+      .follow {
+          display: none !important;
+      }
+
+      .follow1 {
+          display: block !important;
+      }
+  }
+
+
+  @media screen and (max-width:768px) {
+
+      .follow1 {
+          width: 100%;
+      }
+  }
+
+
+
+
+
+
+  /*  ---------------------    third banner         -----------------------------------------*/
+  .Created {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+  }
+
+  @media screen and (max-width:768px) {
+      .Created {
+          font-size: 16px;
+      }
+  }
+
+  .frame-1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 5px 10px;
+      gap: 10px;
+      width: 50px;
+      height: 32px;
+      background: #858584;
+      border-radius: 20px;
+  }
+
+  .third-1-div {
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+  }
+
+  .owned {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 140%;
+      color: #858584;
+  }
+
+  @media screen and (max-width:768px) {
+      .owned {
+          font-size: 16px;
+      }
+  }
+
+  .frame-2 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 5px 10px;
+      gap: 10px;
+      width: 40px;
+      height: 32px;
+      background: #3B3B3B;
+      border-radius: 20px;
+  }
+
+  .frame-3 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 5px 10px;
+      gap: 10px;
+      width: 30px;
+      height: 32px;
+      background: #3B3B3B;
+      border-radius: 20px;
+  }
+
+  .third-r {
+      padding-top: 10px;
+      border-top: 1px solid #3B3B3B;
+  }
+
+
+  @media screen and (max-width:768px) {
+
+      .frame-1 {
+          display: none !important;
+      }
+
+      .frame-2 {
+          display: none !important;
+      }
+
+      .frame-3 {
+          display: none !important;
+      }
+
+  }
+
+  .frame-text-302 {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: #FFFFFF;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*  ---------------------    fourth  banner         -----------------------------------------*/
+
+  .fourth-r {
+      padding-top: 80px;
+  }
+
+  .fourth-bunner {
+      background-color: #3B3B3B;
+
+  }
+
+  @media screen and (max-width:768px) {
+      .fifth-1 {
+          padding-bottom: 20px;
+      }
+
+      .fifth-2 {
+          padding-bottom: 20px;
+      }
+
+  }
+
+  .img-fifth-1-div {
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      width: 100%;
+      height: 100%;
+      background: #2B2B2B;
+      border-radius: 20px;
+  }
+
+  .text-banner-5-1 {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      padding-top: 20px;
+      justify-content: center;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 25px;
+
+  }
+
+  .two {
+      display: flex;
+      gap: 12px;
+  }
+
+  .distanse {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 140%;
+      text-transform: capitalize;
+      color: #FFFFFF;
+  }
+
+  .two-1 span {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 110%;
+
+      text-align: right;
+
+      color: #858584;
+  }
+
+  .moondancer {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      color: #FFFFFF;
+  }
+
+  .two-1 {
+      display: flex;
+      flex-direction: row;
+      gap: 168px;
+
+  }
+
+  .two-2 span {
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      text-align: right;
+      color: #FFFFFF;
+  }
+
+  .two-2 {
+      display: flex;
+      flex-direction: row;
+      gap: 120px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /*  ---------------------    footer  banner         -----------------------------------------*/
 
