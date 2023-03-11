@@ -2351,17 +2351,20 @@
           background-size: cover;
           position: relative;
           height: 320px;
+          justify-content: center;
       }
   }
 
   .image1-div {
-      height: 50px;
-      padding-top: 250px;
+
+      position: absolute;
+      bottom: -50px;
+
   }
 
   @media screen and (max-width:768px) {
       .image1-div {
-          padding-left: 165px;
+          left: 163px;
       }
   }
 
