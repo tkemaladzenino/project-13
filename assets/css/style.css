@@ -2364,6 +2364,7 @@
 
   @media screen and (max-width:768px) {
       .image1-div {
+          position: absolute;
           left: 163px;
       }
   }
